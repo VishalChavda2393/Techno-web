@@ -12,3 +12,46 @@ body {
     min-width: 50%;
     max-height: 200px;
 }
+
+
+@media (max-width:425px){
+
+    /* slider sections */
+    .carousel-item img{
+        width: 100%;
+        height: 60vh;
+    }
+    /* About section */
+    .About .pra{
+        padding: 10px 15px;
+        margin-bottom: 20px;
+    }
+    .About .head{
+        font-size: 24px;
+        padding: 10px;
+    }
+
+    /* Services Section */
+    .serices .inner-box{
+        margin-top: 4px;
+        padding: 10px;
+    }
+
+    /* temas section */
+
+    .temas .temas-box{
+        margin-top: 8px;
+        padding-left: 10px;
+    }
+
+    /* Contact Section */
+
+    .content .con-input{
+        padding: 30px;
+        margin-top: 8px;   
+    }
+    .content .img-fulid {
+        margin-top: 10px;
+        padding: 10px;
+    }
+}
